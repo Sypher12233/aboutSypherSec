@@ -1,0 +1,166 @@
+/* Universal */
+
+html {
+  background-color: black;
+  /* background-color: #2e343d; */
+  color: #fff;
+  /* color: #939eae; */
+  font-family: "Roboto Mono", "Vazirmatn";
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+header {
+  font-size: 2.5rem;
+  margin: 2rem;
+}
+
+h1 {
+  font-family: 'Roboto', serif;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: red;
+}
+
+p {
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  line-height: 2rem;
+  padding: 1rem 0rem;
+  width: 80%;
+}
+
+/* Nav Section */
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.5rem;
+  color: #939eae;
+  margin: 0rem;
+  padding: 0rem;
+  line-height: 4rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #939eae;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #ffa000;
+}
+
+.link:active {
+  color: #939eae;
+}
+
+/* About Me Section */
+
+.aboutMe {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  margin: 6rem 12rem;
+}
+
+.profileImg img {
+  border-radius: 1rem;
+}
+
+/* Projects Section */
+
+.subHeader {
+  color: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem 10rem;
+  width: 70rem;
+}
+
+.projects h2 {
+  color: #002d72;
+}
+
+.projectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1DA1F2;
+  height: 13rem;
+  width: 16.5rem;
+}
+
+.projectContainer:hover {
+  box-shadow: 5px 5px 5px;
+  transition: font-size .1s ease-in, background-color .1s ease-in, box-shadow .1s ease-in;
+  font-size: 40px;
+  color: #ffa000;
+  background-color: #593aad;
+}
+
+.projectContainer:active {
+  font-size: 35px;
+  background-color: #21360F;
+  margin-top: 8px;
+  box-shadow: 5px 5px 10px;
+  transition: font-size .1s ease-in, background-color .1s ease-in, margin-top .1s ease-in, box-shadow .1s ease-in;
+}
+
+/* Contact Section */
+
+.contact h2 {
+  margin-left: 12rem;
+}
+
+.contact ul {
+  margin: 3rem 12rem;
+  list-style: none;
+}
+
+.contact li {
+  margin: 1rem 0rem 1rem 0rem;
+  font-size: 2rem;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.github {
+  color: #2e343d;
+}
+
+.stackoverflow {
+  color: #F47F24;
+}
+
+.social {
+  color: #FFD300;
+  text-decoration: none;
+}
+
+.social:hover {
+  color: #ffa000
+}
+
+/* Footer Section */
+
+footer {
+  font-size: 1rem;
+  padding: 1rem;
+  color: #2176FF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
